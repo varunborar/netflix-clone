@@ -16,7 +16,7 @@
         <a href="#">
             <img class="logo" src="images/misc/logo.svg" alt="NETFLIX" />
         </a>
-        <button class="signin-btn" type="submit">Sign In</button>
+        <button class="signin-btn" type="submit" onclick="signIn()">Sign In</button>
     </header>
 
     <section class="landing">
@@ -27,7 +27,7 @@
         <h5 class="action-line">Ready to watch? Enter your email to create or restart your membership.</h5>
         <div class="optform">
             <input class="email-input" type="text" id="email" name="email" placeholder="Email" />
-            <button class="get-started-btn" type="submit">Get Started</button>
+            <button class="get-started-btn" type="submit" onclick="signIn()">Get Started</button>
         </div>
     </section>
     <section class="jumbotron">
@@ -64,15 +64,37 @@
             <div class="faq-container col-lg-6 col-md-8 col-sm-10">
                 <h1>Frequently Asked Questions</h1>
                 <div class="faq-accordion" id="faq-fill">
-
                 </div>
-
             </div>
-        </div>
         </div>
     </section>
     <footer>
-
+        <div class="row">
+            <h4>Questions? Contact us.</h4>
+            <div class="col-lg-3 col-md-6 col-sm-9 col-xs-12">
+                <div class="footer-item">FAQ</div>
+                <div class="footer-item">Investor Relations</div>
+                <div class="footer-item">Privacy</div>
+                <div class="footer-item">Speed Test</div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-9 col-xs-12">
+                <div class="footer-item">Help Center</div>
+                <div class="footer-item">Jobs</div>
+                <div class="footer-item">Cookie Prefrences</div>
+                <div class="footer-item">Legal Notices</div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-9 col-xs-12">
+                <div class="footer-item">Account</div>
+                <div class="footer-item">Ways to Watch</div>
+                <div class="footer-item">Cororate Information</div>
+                <div class="footer-item">Netflix Orignals</div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-9 col-xs-12">
+                <div class="footer-item">Media Center</div>
+                <div class="footer-item">Terms of Use</div>
+                <div class="footer-item">Contact Us</div>
+            </div>
+        </div>
     </footer>
 </body>
 

@@ -4,7 +4,7 @@ function expandPanel(event) {
 
     var item = event.currentTarget.lastChild.firstChild;
     if (item.src.endsWith("add.webp")) {
-        item.src = "images/icons/close.webp";
+        item.src = "images/icons/close-slim.webp";
     } else {
         item.src = "images/icons/add.webp"
     }
@@ -20,6 +20,8 @@ function expandPanel(event) {
 }
 
 function createFaqAcc(data) {
+    if (!faqAcc)
+        return;
     for (item of data) {
         let accItem = document.createElement('div');
         accItem.classList.add('acc-item');
@@ -53,3 +55,12 @@ fetch("./data/faqs.json")
     .then(data => {
         createFaqAcc(data);
     });
+
+function signIn(event) {
+    window.location.href = "./pages/signin.html";
+}
+
+function openHomeScreen(event) {
+    console.log("Redirecting to home screen")
+    window.location.href = "homescreen.html";
+}

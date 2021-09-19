@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix | Sign In</title>
+
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <header>
+        <a href="../index.html">
+            <img class="logo" src="../images/misc/logo.svg" alt="NETFLIX" />
+        </a>
+    </header>
+
+    <section class="landing">
+        <div class="landing-background"></div>
+        <div class="overlay"></div>
+        <div class="form-wrapper">
+            <form action="homescreen.html" autocomplete="off">
+                <h1>Sign In</h1>
+                <input class="d-block" type="email" name="email" placeholder="Email Address" required/>
+                <input class="d-block" type="password" name="password" placeholder="Password" required/>
+                <button class="d-block" onclick="openHomeScreen()">Sign In</button>
+                <h4>New to Netflix? <a href="signup.html">Sign Up now.</a></h4>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="row">
+            <h4>Questions? Contact us.</h4>
+            <div class="col-lg-3 col-md-6 col-sm-9 col-xs-12">
+                <div class="footer-item">FAQ</div>
+                <div class="footer-item">Investor Relations</div>
+                <div class="footer-item">Privacy</div>
+                <div class="footer-item">Speed Test</div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-9 col-xs-12">
+                <div class="footer-item">Help Center</div>
+                <div class="footer-item">Jobs</div>
+                <div class="footer-item">Cookie Prefrences</div>
+                <div class="footer-item">Legal Notices</div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-9 col-xs-12">
+                <div class="footer-item">Account</div>
+                <div class="footer-item">Ways to Watch</div>
+                <div class="footer-item">Cororate Information</div>
+                <div class="footer-item">Netflix Orignals</div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-9 col-xs-12">
+                <div class="footer-item">Media Center</div>
+                <div class="footer-item">Terms of Use</div>
+                <div class="footer-item">Contact Us</div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="../bootstrap/js/bootstrap.min.js"></script>
+<script src="../js/index.js"></script>
+
+
+</html>

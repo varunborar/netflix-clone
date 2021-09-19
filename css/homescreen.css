@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: black;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+}
+
+header .logo {
+    height: 36px;
+    margin: 2rem 3.5rem;
+}
+
+header h2.type {
+    font-size: 20px;
+    color: white;
+    margin: 0 1rem;
+}
+
+@media screen and (max-width: 447px) {
+    header .logo {
+        height: 28px;
+        margin: 1.5rem;
+    }
+    header h2.type {
+        font-size: 16px;
+    }
+}
+
+section.focus .background {
+    background-image: url('../images/misc/joker1.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    z-index: -2;
+    height: 100vh;
+    width: 100%;
+}
+
+section.focus .content {
+    position: absolute;
+    top: 40%;
+    padding: 5%;
+}
+
+section.focus .content h1.header {
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: 2px 2px #00000077;
+}
+
+section.focus .content h4.header-summary {
+    color: white;
+    font-size: 22px;
+    margin: 2rem 0;
+    text-shadow: 2px 2px #00000077;
+}
+
+section.films {
+    display: block;
+}
+
+section.series {
+    display: none;
+}
+
+.play {
+    color: black;
+    width: 5rem;
+    padding: 0.40rem;
+    border: none;
+    border-radius: 4px;
+    transition: all 0.4s;
+}
+
+.play:hover {
+    background-color: red;
+    color: white;
+}
+
+.slider-wrapper {
+    position: relative;
+}
+
+h2.slider-header {
+    font-size: 24px;
+    padding: 1rem 1.5rem;
+    color: white;
+}
+
+h2.slider-header::first-letter {
+    text-transform: capitalize;
+}
+
+.slider-container {
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+.slider {
+    overflow-x: auto;
+    overflow-y: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    max-height: 320px;
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+.slider::-webkit-scrollbar {
+    display: none;
+}
+
+.scroll-left,
+.scroll-right {
+    cursor: pointer;
+    position: absolute;
+    top: 60%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    z-index: 10;
+}
+
+.scroll-left {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.scroll-right {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.scroll-left:hover,
+.scroll-right:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.slider-item {
+    margin: 1rem 1.5rem;
+    transition: transform 0.3s;
+}
+
+.slider-item img {
+    width: 100%;
+}
+
+.slider-item:hover {
+    transform: scale(1.1);
+}
+
+.slider-item:hover>img {
+    border: 2px solid white;
+}
+
+.full-view {
+    width: 100%;
+    display: block;
+    position: relative;
+    margin: 1rem 0;
+}
+
+.full-view img {
+    width: 100%;
+    z-index: -1;
+}
+
+.full-view .content {
+    position: absolute;
+    top: 20%;
+    padding: 0 4rem;
+    max-width: 40%;
+}
+
+.full-view .content h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.full-view .content h4 {
+    font-size: 20px;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.close-full-view {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.close-full-view img {
+    width: 24px;
+    height: 24px;
+}

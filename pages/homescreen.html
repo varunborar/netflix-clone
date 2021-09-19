@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/homescreen.css">
+
+</head>
+
+<body>
+    <header>
+        <a href="#">
+            <img class="logo" src="../images/misc/logo.svg" alt="NETFLIX" />
+        </a>
+        <a class="navigation" onclick="changeContent(event)">
+            <h2 class="type">Films</h2>
+        </a>
+        <a class="navigation" onclick="changeContent(event)">
+            <h2 class="type">Series</h2>
+        </a>
+    </header>
+    <section class="focus">
+        <div class="background"></div>
+        <div class="content">
+            <h1 class="header">Watch Joker Now</h1>
+            <h4 class="header-summary">Forever alone in a crowd, failed comedian Arthur Fleck seeks connection as he walks the streets of Gotham City. Arthur wears two masks, the one he paints for his day job as a clown, and the guise he projects in a futile attempt to feel like
+                he is part of the world around him.</h4>
+            <button class="play">Play</button>
+        </div>
+    </section>
+    <section class="films">
+        <div id="slider-wrapper-films">
+
+        </div>
+    </section>
+    <section class="series">
+        <div id="slider-wrapper-series">
+        </div>
+    </section>
+</body>
+<script src="../bootstrap/js/bootstrap.min.js"></script>
+<script src="../js/homescreen.js"></script>
+
+</html>

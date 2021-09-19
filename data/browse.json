@@ -1,0 +1,354 @@
+{
+    "series": [{
+            "id": 1,
+            "title": "Arthur",
+            "genre": "children",
+            "source": "children/arthur",
+            "summary": "Bespectacled aardvark Arthur Read demonstrates to kids how to deal with such childhood traumas and challenges as homework, teachers and bullies."
+        },
+        {
+            "id": 2,
+            "title": "Dora The Explorer",
+            "genre": "children",
+            "source": "children/dora-the-explorer",
+            "summary": "Dora, a seven-year-old girl of Latin American descent, embarks upon numerous adventures in the wilderness with her friend Boots, a monkey, and a variety of fun and useful tools."
+        },
+        {
+            "id": 3,
+            "title": "Paw Patrol",
+            "genre": "children",
+            "source": "children/paw-patrol",
+            "summary": "Six brave puppies, captained by a tech-savvy ten-year-old boy, Ryder, work together to accomplish high-stakes rescue missions to safeguard the residents of the Adventure Bay community."
+        },
+        {
+            "id": 4,
+            "title": "Peppa Pig",
+            "genre": "children",
+            "source": "children/peppa-pig",
+            "summary": "Peppa, an outgoing preschool pig, participates in many energetic activities. She learns something new every day and has a lot of fun with her family and friends."
+        },
+        {
+            "id": 5,
+            "title": "Spongebob",
+            "genre": "children",
+            "source": "children/spongebob",
+            "summary": "A yellow sea sponge named SpongeBob SquarePants lives in the city of Bikini Bottom deep in the Pacific Ocean. "
+        },
+        {
+            "id": 6,
+            "title": "Arrested Development",
+            "genre": "comedies",
+            "source": "comedies/arrested-development",
+            "summary": "The Bluth family, once a prominent name in the business, loses everything after the head patriarch gets convicted for fraud."
+        },
+        {
+            "id": 7,
+            "title": "Curb your enthusiasm",
+            "genre": "comedies",
+            "source": "comedies/curb-your-enthusiasm",
+            "summary": "Larry David, a famous television writer and producer, gets into various misadventures with his friends and celebrity colleagues in Los Angeles."
+        },
+        {
+            "id": 8,
+            "title": "Family Guy",
+            "genre": "comedies",
+            "source": "comedies/family-guy",
+            "summary": "Peter Griffin and his family of two teenagers, a smart dog, a devilish baby and his wife find themselves in some of the most hilarious scenarios."
+        },
+        {
+            "id": 9,
+            "title": "South Park",
+            "genre": "comedies",
+            "source": "comedies/south-park",
+            "summary": "Four young, schoolgoing boys, Stan Marsh, Kyle Broflovski, Eric Cartman and Kenny McCormick, who live in South Park set out on various adventures."
+        },
+        {
+            "id": 10,
+            "title": "The Office",
+            "genre": "comedies",
+            "source": "comedies/the-office",
+            "summary": "A motley group of office workers go through hilarious misadventures at the Scranton, Pennsylvania, branch of the Dunder Mifflin Paper Company."
+        },
+        {
+            "id": 11,
+            "title": "Long Shot",
+            "genre": "crime",
+            "source": "crime/long-shot",
+            "summary": "An innocent man is accused of murder, leading his attorney on a wild chase to confirm his alibi using raw footage from a television show."
+        },
+        {
+            "id": 12,
+            "title": "Making a Murderer",
+            "genre": "crime",
+            "source": "crime/making-a-murderer",
+            "summary": "Exonerated after spending nearly two decades in prison for a crime he did not commit, Steven Avery filed suit against Manitowoc County, Wis., and several individuals involved with his arrest."
+        },
+        {
+            "id": 13,
+            "title": "The Confession Killer",
+            "genre": "crime",
+            "source": "crime/the-confession-killer",
+            "summary": "Henry Lee Lucas was an American convicted serial killer whose crimes spanned from 1960 to 1983. He was convicted of murdering eleven people and condemned to death for the murder of Debra Jackson, although his sentence would be commuted to life in prison in 1998."
+        },
+        {
+            "id": 14,
+            "title": "The Innocent Man",
+            "genre": "crime",
+            "source": "crime/the-innocent-man",
+            "summary": "Henry Lee Lucas was an American convicted serial killer whose crimes spanned from 1960 to 1983. He was convicted of murdering eleven people and condemned to death for the murder of Debra Jackson."
+        },
+        {
+            "id": 15,
+            "title": "The Staircase",
+            "genre": "crime",
+            "source": "crime/the-staircase",
+            "summary": "In 2001 novelist Michael Peterson's wife died, and he claimed she perished after falling down stairs at their home. The medical examiner, however, determined that she had been beaten with a weapon"
+        },
+        {
+            "id": 16,
+            "title": "Amanda Knox",
+            "genre": "documentaries",
+            "source": "documentaries/amanda-knox",
+            "summary": "Amanda Marie Knox is an American woman who spent almost four years in an Italian prison."
+        },
+        {
+            "id": 17,
+            "title": "Citizenfour",
+            "genre": "documentaries",
+            "source": "documentaries/citizenfour",
+            "summary": "Citizenfour is a 2014 documentary film directed by Laura Poitras, concerning Edward Snowden and the NSA spying scandal."
+        },
+        {
+            "id": 18,
+            "title": "Man on Wire",
+            "genre": "documentaries",
+            "source": "documentaries/man-on-wire",
+            "summary": "Filmmaker James Marsh masterfully recreates high-wire daredevil Philippe Petit's 1974 stunt walking on a wire across the Twin Towers."
+        },
+        {
+            "id": 19,
+            "title": "Super Size Me",
+            "genre": "documentaries",
+            "source": "documentaries/super-size-me",
+            "summary": "Director Morgan Spurlock's social experiment in fast-food gastronomy sees him attempting to subsist uniquely on food from the McDonalds"
+        },
+        {
+            "id": 20,
+            "title": "Tiger King",
+            "genre": "documentaries",
+            "source": "documentaries/tiger-king",
+            "summary": "An exploration of big cat breeding and its bizarre underworld, populated by eccentric characters."
+        },
+        {
+            "id": 21,
+            "title": "Forrest Gump",
+            "genre": "feel-good",
+            "source": "feel-good/forrest-gump",
+            "summary": "Forrest Gump, a man with a low IQ, joins the army for service where he meets Dan and Bubba. However, he cannot stop thinking about his childhood sweetheart Jenny Curran, whose life is messed up."
+        },
+        {
+            "id": 22,
+            "title": "Good Will Hunting",
+            "genre": "feel-good",
+            "source": "feel-good/good-will-hunting",
+            "summary": "Will Hunting, a genius in mathematics, solves all the difficult mathematical problems. When he faces an emotional crisis, he takes help from psychiatrist Dr Sean Maguireto, who helps him recover."
+        },
+        {
+            "id": 23,
+            "title": "Juno",
+            "genre": "feel-good",
+            "source": "feel-good/juno",
+            "summary": "Social misfit Juno protects herself with a caustic wit, but her unplanned pregnancy has the teen getting more involved in the lives of her baby's adoptive parents than she expected."
+        },
+        {
+            "id": 24,
+            "title": "Midnight in Paris",
+            "genre": "feel-good",
+            "source": "feel-good/midnight-in-paris",
+            "summary": "Gil arrives with his fiancee and her family in Paris for a vacation, even as he tries to finish his debut novel. He is beguiled by the city, which takes him to a time past, away from his fiancee."
+        },
+        {
+            "id": 25,
+            "title": "School of Rock",
+            "genre": "feel-good",
+            "source": "feel-good/school-of-rock",
+            "summary": "Dewey Finn, an amateur rock enthusiast, slyly takes up his friend's substitute teacher's job. Bearing no qualifications for it, he instead starts training the students to form a band."
+        }
+    ],
+    "films": [{
+            "id": 1,
+            "title": "Despicable Me",
+            "genre": "children",
+            "source": "children/despicable-me",
+            "summary": "Gru, a criminal mastermind, adopts three orphans as pawns to carry out the biggest heist in history. His life takes an unexpected turn when the little girls see him as their potential father."
+        },
+        {
+            "id": 2,
+            "title": "Frozen",
+            "genre": "children",
+            "source": "children/frozen",
+            "summary": "Anna sets out on a journey with an iceman, Kristoff, and his reindeer, Sven, in order to find her sister, Elsa, who has the power to convert any object or person into ice."
+        },
+        {
+            "id": 3,
+            "title": "Hotel Transylvania",
+            "genre": "children",
+            "source": "children/hotel-transylvania",
+            "summary": "Dracula, who owns a high-end resort for monsters, attempts to keep his daughter from falling in love with Jonathan, a human."
+        },
+        {
+            "id": 4,
+            "title": "Spirited Away",
+            "genre": "children",
+            "source": "children/spirited-away",
+            "summary": "In this animated feature by noted Japanese director Hayao Miyazaki, 10-year-old Chihiro (Rumi Hiiragi) and her parents (Takashi Naitô, Yasuko Sawaguchi) stumble upon a seemingly abandoned amusement park."
+        },
+        {
+            "id": 5,
+            "title": "Up",
+            "genre": "children",
+            "source": "children/up",
+            "summary": "Carl, an old widower, goes off on an adventure in his flying house in search of Paradise Falls, his wife's dream destination."
+        },
+        {
+            "id": 6,
+            "title": "Fight Club",
+            "genre": "drama",
+            "source": "drama/fight-club",
+            "summary": "Discontented with his capitalistic lifestyle, a white-collared insomniac forms an underground fight club with Tyler, a careless soap salesman. The project soon spirals down into something sinister."
+        },
+        {
+            "id": 7,
+            "title": "Kings Speech",
+            "genre": "drama",
+            "source": "drama/kings-speech",
+            "summary": "King George VI tries to overcome his stammering problem with the help of speech therapist Lionel Logue and makes himself worthy enough to lead his country through World War II."
+        },
+        {
+            "id": 8,
+            "title": "The Prestige",
+            "genre": "drama",
+            "source": "drama/the-prestige",
+            "summary": "Two friends and fellow magicians become bitter enemies after a sudden tragedy. As they devote themselves to this rivalry, they make sacrifices that bring them fame but with terrible consequences."
+        },
+        {
+            "id": 9,
+            "title": "The Revenant",
+            "genre": "drama",
+            "source": "drama/the-revenant",
+            "summary": "Hugh Glass, a legendary frontiersman, is severely injured in a bear attack and is abandoned by his hunting crew. He uses his skills to survive and take revenge on his companion, who betrayed him."
+        },
+        {
+            "id": 10,
+            "title": "The Social Network",
+            "genre": "drama",
+            "source": "drama/the-social-network",
+            "summary": "Mark Zuckerberg creates a social networking site, Facebook, with the help of his friend Eduardo Saverin. But soon, a string of lies tears their relationship apart even as Facebook connects people."
+        },
+        {
+            "id": 11,
+            "title": "A Star is Born",
+            "genre": "romance",
+            "source": "romance/a-star-is-born",
+            "summary": "After falling in love with struggling artist Ally, Jackson, a musician, coaxes her to follow her dreams, while he battles with alcoholism and his personal demons."
+        },
+        {
+            "id": 12,
+            "title": "Blue Valentine",
+            "genre": "romance",
+            "source": "romance/blue-valentine",
+            "summary": "Dean and Cynthia are married with a daughter and their marriage is about to fall apart. Both come from dysfunctional families and struggle to make sense of their relationship."
+        },
+        {
+            "id": 13,
+            "title": "La La Land",
+            "genre": "romance",
+            "source": "romance/la-la-land",
+            "summary": "Sebastian (Ryan Gosling) and Mia (Emma Stone) are drawn together by their common desire to do what they love. But as success mounts they are faced with decisions that begin..."
+        },
+        {
+            "id": 14,
+            "title": "The Notebook",
+            "genre": "romance",
+            "source": "romance/the-notebook",
+            "summary": "Duke reads the story of Allie and Noah, two lovers who were separated by fate, to Ms Hamilton, an old woman who suffers from Alzheimer's, on a daily basis out of his notebook."
+        },
+        {
+            "id": 15,
+            "title": "Titanic",
+            "genre": "romance",
+            "source": "romance/titanic",
+            "summary": "Seventeen-year-old Rose hails from an aristocratic family and is set to be married. When she boards the Titanic, she meets Jack Dawson, an artist, and falls in love with him."
+        },
+        {
+            "id": 16,
+            "title": "Gone girl",
+            "genre": "suspense",
+            "source": "suspense/gone-girl",
+            "summary": "Nick Dunne discovers that the entire media focus has shifted on him when his wife Amy Dunne disappears on the day of their fifth wedding anniversary."
+        },
+        {
+            "id": 17,
+            "title": "Prisoners",
+            "genre": "suspense",
+            "source": "suspense/prisoners",
+            "summary": "When the police take time to find Keller Dover's daughter and her friend, he decides to go on a search himself. His desperation leads him closer to finding the truth and also jeopardises his own life."
+        },
+        {
+            "id": 18,
+            "title": "Seven",
+            "genre": "suspense",
+            "source": "suspense/seven",
+            "summary": "A serial killer begins murdering people according to the seven deadly sins. Two detectives, one new to the city and the other about to retire, are tasked with apprehending the criminal."
+        },
+        {
+            "id": 19,
+            "title": "Shutter Island",
+            "genre": "suspense",
+            "source": "suspense/shutter-island",
+            "summary": "Teddy Daniels and Chuck Aule, two US marshals, are sent to an asylum on a remote island in order to investigate the disappearance of a patient, where Teddy uncovers a shocking truth about the place."
+        },
+        {
+            "id": 20,
+            "title": "Zodiac",
+            "genre": "suspense",
+            "source": "suspense/zodiac",
+            "summary": "The Abbott family must now face the terrors of the outside world as they fight for survival in silence. Forced to venture into the unknown, they realize that the creatures that hunt by sound are not the only threats that lurk beyond the sand path."
+        },
+        {
+            "id": 21,
+            "title": "Nightcrawler",
+            "genre": "thriller",
+            "source": "thriller/nightcrawler",
+            "summary": "Louis Bloom, a petty thief, realises that he can make money by capturing photographs of criminal activities and starts resorting to extreme tactics to get them."
+        },
+        {
+            "id": 22,
+            "title": "A Quiet Place",
+            "genre": "thriller",
+            "source": "thriller/a-quiet-place",
+            "summary": "The Abbott family must now face the terrors of the outside world as they fight for survival in silence. Forced to venture into the unknown, they realize that the creatures that hunt by sound are not the only threats that lurk beyond the sand path."
+        },
+        {
+            "id": 23,
+            "title": "Black Swan",
+            "genre": "thriller",
+            "source": "thriller/black-swan",
+            "summary": "Nina, a ballerina, gets the chance to play the White Swan, Princess Odette. But she finds herself slipping into madness when Thomas, the artistic director, decides that Lily might fit the role better."
+        },
+        {
+            "id": 24,
+            "title": "Joker",
+            "genre": "thriller",
+            "source": "thriller/joker",
+            "summary": "Forever alone in a crowd, failed comedian Arthur Fleck seeks connection as he walks the streets of Gotham City. Arthur wears two masks, the one he paints for his day job as a clown, and the guise he projects in a futile attempt to feel like he is part of the world around him."
+        },
+        {
+            "id": 25,
+            "title": "The Silence of the Lambs",
+            "genre": "thriller",
+            "source": "thriller/the-silence-of-the-lambs",
+            "summary": "Clarice Starling, an FBI agent, seeks help from Hannibal Lecter, a psychopathic serial killer and former psychiatrist, in order to apprehend another serial killer who has been claiming female victims."
+        }
+    ]
+}
