@@ -46,7 +46,7 @@ function createFaqAcc(data) {
     }
 }
 
-fetch("../data/faqs.json")
+fetch("./data/faqs.json")
     .then(response => {
         return response.json();
     })
