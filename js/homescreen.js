@@ -50,6 +50,7 @@ function expand(event) {
     let playButton = document.createElement('button');
     playButton.classList.add("play");
     playButton.innerText = "Play";
+    playButton.addEventListener('click', showVideo);
 
     let accIcon = document.createElement('div');
     accIcon.classList.add('close-full-view');
@@ -151,7 +152,28 @@ function createSliders(container, data, source) {
     }
 }
 
+function removeVideo() {
+    let body = document.getElementsByTagName('body');
+    let overlay = document.getElementsByClassName("overlay");
+    body[0].removeChild(overlay[0]);
+}
 
+function showVideo() {
+    let body = document.getElementsByTagName('body');
+    let overlay = document.createElement('div');
+    overlay.classList.add('overlay');
+    let videocontainer = document.createElement('video');
+    videocontainer.classList.add('video-player');
+    videocontainer.controls = true;
+    videocontainer.setAttribute('type', 'video/mp4');
+    let videoSource = document.createElement('source');
+    videoSource.setAttribute('src', '../videos/video.mp4');
+    videoSource.setAttribute('type', 'video/mp4');
+    videocontainer.setAttribute('src', '../videos/video.mp4');
+    overlay.appendChild(videocontainer);
+    overlay.addEventListener('click', removeVideo);
+    body[0].appendChild(overlay);
+}
 
 
 
